@@ -62,9 +62,9 @@
     border: none;
     margin-left: 20px;
     margin-top: 40px;
+    text-align: center;
 }
-
-/* main section styles */
+/* main section styles
 /* our flowers section styles */
 .name {
     color: #272727;
@@ -201,7 +201,7 @@
 
 .secondflower{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     background: #E554731A;
     /* text-align: center; */
     align-items: center;
