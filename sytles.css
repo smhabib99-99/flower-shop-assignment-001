@@ -49,7 +49,9 @@
     /* flex-shrink: 0; */
     /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
 }
+/* shared css files here to*/
 
+/* shared css files here */
 .btn {
     color: #FFF;
     font-size: 20px;
@@ -191,4 +193,25 @@
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 60px;
+}
+
+.color{
+    color: #E55473;;
+}
+
+.secondflower{
+    display: flex;
+    justify-content: space-evenly;
+    background: #E554731A;
+    /* text-align: center; */
+    align-items: center;
+    margin: 80px 0px 80px 0px;
+}
+
+.size{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.pr-size{
+    font-size: 24px;
 }
