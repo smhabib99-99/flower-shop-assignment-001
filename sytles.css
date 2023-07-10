@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    height: 300px;
+    background-color: gray;
+}
+.nav-container{
+    display: flex;
+}
+.small-pic{
+    width: 150px;
+}
+.btn{
+    background-color: #E55473;
+}
