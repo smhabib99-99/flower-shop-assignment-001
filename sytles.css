@@ -90,8 +90,8 @@
 
 .flowers-list {
     display: flex;
-    justify-content: space-between;
-    margin: 40px 100px 30px 130px;
+    justify-content: space-evenly;
+    margin: 40px 180px 30px 190px;
 }
 
 .flowers-list .fl-1 {
