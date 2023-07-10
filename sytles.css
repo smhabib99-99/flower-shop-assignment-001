@@ -98,20 +98,21 @@
     line-height: 30px;
     color: #272727;
     justify-content: center;
-    margin: 8px 800px;
+    margin: 8px 470px;
 }
 
 .flowers-list {
-    margin-left: 256px;
-    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 100px 30px 130px;
 }
 
 .flowers-list .fl-1 {
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
     /* width: 310px;
     height: 428px; */
-    width: 464px;
-    height: 538px;
+    width: 360px;
+    height: 598px;
     flex-shrink: 0;
     flex-shrink: 0;
     border-radius: 300px 300px 0px 0px;
@@ -121,16 +122,16 @@
 
 .fl-1 {
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
-    width: 310px;
-    height: 428px;
-    flex-shrink: 0;
-    padding: 117px 48px 0px 48px;
+    /* width: 210px;
+    height: 28px;
+    flex-shrink: 0; */
+    padding: 57px 8px 0px 18px;
 }
 
 .flowers-list .fl-2 {
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
-    width: 464px;
+    width: 324px;
     height: 538px;
     flex-shrink: 0;
     color: #0597A0;
@@ -138,29 +139,73 @@
 
 .fl-2 {
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
-    width: 370px;
+    /* width: 370px;
     height: 370px;
-    flex-shrink: 0;
+    flex-shrink: 0; */
     padding: 117px 47px 2px 47px;
 }
 
 .fl-3 {
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
-    width: 314px;
+    /* width: 314px;
     height: 471px;
-    flex-shrink: 0;
-    padding: 67px 65px ;
+    flex-shrink: 0; */
+    padding: 67px 65px;
 }
 
 .flowers-list .fl-3 {
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
-    width: 464px;
-    height: 538px;
-    flex-shrink: 0;
+    width: 304px;
+    height: 520px;
+    /* flex-shrink: 0; */
     color: #477D1126;
 }
-.name-flowers{
-    display:flex;
-    
+
+.name-flowers {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin-bottom: 40px;
 }
+
+.name-flowers .border1 {
+    border-bottom: solid black;
+}
+
+.name-flowers .border2 {
+    border-bottom: solid black;
+}
+
+.name-flowers .border3 {
+    border-bottom: solid black;
+}
+
+/* All about support sessions */
+
+.support {
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    width: 1440px;
+    height: 320px;
+    /* flex-shrink: 0; */
+    color: #272727;
+    margin: 150px 240px;
+    padding: 80px 80px;
+}
+
+.support-section {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 120px 0px 8px;
+}
+
+.support-description {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 60px;
+}
+/* 
+.support .support-description .ds1 {
+text-align: center;
+} */
