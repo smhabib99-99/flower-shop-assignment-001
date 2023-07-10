@@ -20,7 +20,7 @@
     display: flex;
     background: #E554731A;
     justify-content: space-between;
-    margin:0px 100px;
+    /* margin:0px 100px; */
     padding: 50px 150px 1px 150px;
 }
 
@@ -28,14 +28,15 @@
     display: flex;
     width: 708px;
     flex-direction: column;
-    flex-shrink: 0;
+    /* flex-shrink: 0; */
     color: #272727;
-    font-family: Lato;
+    /* font-family: Lato; */
     font-size: 80px;
-    font-style: normal;
+    /* font-style: normal; */
     font-weight: 800;
-    line-height: normal;
+    /* line-height: normal; */
     margin-left: 20px;
+    margin-top: 200px;
 }
 
 .para {
@@ -50,6 +51,7 @@
     font-weight: 400;
     line-height: 30px;
     margin-left: 20px;
+    margin-top: 40px;
 }
 
 .smallflower {
@@ -70,4 +72,95 @@
     padding: 20px 25px;
     border: none;
     margin-left: 20px;
+    margin-top: 40px;
+}
+
+/* main section styles */
+/* our flowers section styles */
+.name {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    color: #272727;
+    margin-top: 150px;
+}
+
+.flowers-description {
+    display: flex;
+    width: 594px;
+    flex-direction: column;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #272727;
+    justify-content: center;
+    margin: 8px 800px;
+}
+
+.flowers-list {
+    margin-left: 256px;
+    margin-bottom: 100px;
+}
+
+.flowers-list .fl-1 {
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    /* width: 310px;
+    height: 428px; */
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    color: #A72162;
+}
+
+.fl-1 {
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    width: 310px;
+    height: 428px;
+    flex-shrink: 0;
+    padding: 117px 48px 0px 48px;
+}
+
+.flowers-list .fl-2 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+    color: #0597A0;
+}
+
+.fl-2 {
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    width: 370px;
+    height: 370px;
+    flex-shrink: 0;
+    padding: 117px 47px 2px 47px;
+}
+
+.fl-3 {
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    width: 314px;
+    height: 471px;
+    flex-shrink: 0;
+    padding: 67px 65px ;
+}
+
+.flowers-list .fl-3 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+    color: #477D1126;
+}
+.name-flowers{
+    display:flex;
+    
 }
