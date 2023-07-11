@@ -429,6 +429,9 @@ footer {
 .wedding{
     justify-content: center;
     text-align: center;
+    width: 1500px;
+    height: 450px;
+    background: #E554731A;
 }
 .wedding-heading{
     font-size: 40px;
