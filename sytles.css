@@ -9,10 +9,11 @@
     justify-content: space-between;
     /* margin:0px 100px; */
     padding: 50px 150px 1px 150px;
+    align-items: center;
 }
 
 .heading {
-    display: flex;
+    /* display: flex; */
     width: 708px;
     flex-direction: column;
     /* flex-shrink: 0; */
@@ -27,12 +28,12 @@
 }
 
 .para {
-    display: flex;
+    /* display: flex; */
     width: 634px;
     flex-direction: column;
-    flex-shrink: 0;
+    /* flex-shrink: 0; */
     color: rgba(39, 39, 39, 0.60);
-    font-family: Lato;
+    /* font-family: Lato; */
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -95,6 +96,8 @@
 .flowers-list {
     display: flex;
     justify-content: space-evenly;
+    /* align-items: center; */
+    align-content: space-between;
     margin: 40px 180px 30px 190px;
 }
 
@@ -117,6 +120,7 @@
     height: 28px;
     flex-shrink: 0; */
     padding: 57px 8px 0px 18px;
+    margin: 20px;
 }
 
 .flowers-list .fl-2 {
@@ -134,6 +138,7 @@
     height: 370px;
     flex-shrink: 0; */
     padding: 117px 47px 2px 47px;
+    margin: 20px;
 }
 
 .fl-3 {
@@ -142,6 +147,7 @@
     height: 471px;
     flex-shrink: 0; */
     padding: 67px 65px;
+    margin: 20px;
 }
 
 .flowers-list .fl-3 {
@@ -156,6 +162,9 @@
 .name-flowers {
     display: flex;
     justify-content: space-evenly;
+    align-content: space-between;
+    /* margin: 0px auto; */
+    font-size: 20px;
     list-style: none;
     margin-bottom: 40px;
 }
@@ -174,15 +183,25 @@
 
 /* All about support sessions */
 
-.support {
+/* .support {
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
     width: 1440px;
     height: 320px;
-    /* flex-shrink: 0; */
+    flex-shrink: 0; 
     color: #272727;
     margin: 150px 240px;
     padding: 80px 80px;
+} */
+.support-class {
+    width: 1000px;
+    height: 300px;
+    border-radius: 8px;
+    /* margin: 0px auto; */
+    background: #E55473;
+    color: #272727;
+    /* border-radius: 8px; */
+    /* background: rgba(39, 39, 39, 0.05); */
 }
 
 .support-section {
@@ -194,6 +213,8 @@
 .support-description {
     display: flex;
     justify-content: space-evenly;
+    align-content: space-between;
+    font-size: 20px;
     margin-bottom: 60px;
 }
 
@@ -205,6 +226,7 @@
 .secondflower {
     display: flex;
     justify-content: center;
+    align-content: center;
     background: #E554731A;
     /* text-align: center; */
     align-items: center;
@@ -230,33 +252,48 @@
 }
 
 .beautiful-flowers {
-    margin: 0px 212px 80px;
+    display: flex;
+    /* margin: 0px 212px 80px; */
+    justify-content: space-evenly;
+    margin:0px auto;
+    width: 342px;
+    height: 300px;
+    margin-bottom: 80px;
+    align-content: space-around;
+    align-items: normal;
 }
 
 .beautiful-flowers .ful-1 {
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
-    width: 260px;
+    /* width: 260px;
     height: 396px;
-    flex-shrink: 0;
+    flex-shrink: 0; */
+    /* margin: 20px; change outside the model like drawing margin in our notebook */
+    /* padding: 20px; change inside the model */
+    margin: 20px;
 }
 
 .beautiful-flowers .ful-2 {
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
-    width: 260px;
+    /* width: 260px;
     height: 396px;
-    flex-shrink: 0;
+    flex-shrink: 0; */
+    margin: 20px;
 }
 
 .beautiful-flowers .ful-3 {
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
-    width: 260px;
+    /* width: 260px;
     height: 396px;
-    flex-shrink: 0;
+    flex-shrink: 0; */
+    /* border: 20px; */
+    margin: 20px;
 }
 
 .beautiful-flowers .ful-4 {
     background: url(<path-to-image>), lightgray -11.535px 0px / 173.728% 100% no-repeat;
-    width: 260px;
+    /* width: 260px;
     height: 396px;
-    flex-shrink: 0;
+    flex-shrink: 0; */
+    margin: 20px;
 }
