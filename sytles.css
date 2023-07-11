@@ -80,6 +80,17 @@
     margin-top: 150px;
 }
 
+.featured-flowers {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    /* font-family: Lato; */
+    font-size: 18px;
+    /* font-style: normal; */
+    font-weight: 400;
+    line-height: 30px;
+    color: #27272799;
+}
+
 .flowers-description {
     display: flex;
     width: 594px;
@@ -231,33 +242,46 @@
     /* text-align: center; */
     align-items: center;
     margin: 80px 0px 80px 0px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
 }
 
-.size {
+.insta {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+/* .size {
     font-size: 40px;
     margin-bottom: 15px;
-}
+} */
 
-.pr-size {
+/* .pr-size {
     font-size: 24px;
-}
+} */
 
-.insta .size {
+/* .insta .size {
     margin: 150px 650px 30px;
-}
-
+} */
+/* 
 .insta .pr-size {
     margin: 2px 390px;
     text-align: center;
-}
+} */
 
 .beautiful-flowers {
     display: flex;
     /* margin: 0px 212px 80px; */
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin: 0px auto;
-    width: 342px;
-    height: 300px;
+    width: 450px;
+    height: 340px;
     margin-bottom: 80px;
     align-content: space-around;
     align-items: normal;
@@ -374,4 +398,12 @@ footer {
     line-height: 30px;
     color: #FFFFFFE5;
     margin: 20px;
+}
+
+.copy {
+    /* color: rgba(255, 255, 255, 0.40); */
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    color: #FFFFFF66;
 }
