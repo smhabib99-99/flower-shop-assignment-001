@@ -204,13 +204,30 @@
     margin: 150px 240px;
     padding: 80px 80px;
 } */
+.hossena-kenu {
+    /* display: flex; */
+    margin: 0px auto;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    width: 1300px;
+    height: 250px;
+    align-items: center;
+    justify-content: space-evenly;
+
+    /* flex-shrink: 0; */
+}
+
 .support-class {
-    width: 1000px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 1200px;
     height: 300px;
     border-radius: 8px;
     /* margin: 0px auto; */
     background: #E55473;
     color: #272727;
+    margin-top: 20px;
+    /* margin: 0px auto; */
     /* border-radius: 8px; */
     /* background: rgba(39, 39, 39, 0.05); */
 }
@@ -406,4 +423,39 @@ footer {
     font-weight: 400;
     line-height: normal;
     color: #FFFFFF66;
+}
+
+/* wedding section */
+.wedding{
+    justify-content: center;
+    text-align: center;
+}
+.wedding-heading{
+    font-size: 40px;
+    color: palevioletred;
+}
+.wedding-para{
+
+    /* flex-shrink: 0; */
+    color: rgba(39, 39, 39, 0.60);
+    /* font-family: Lato; */
+    font-size: 18px;
+  
+}
+.wedding-flowers{
+    display: flex;
+    width: 1350px;
+    height: 300px;
+    margin: 0px auto;
+    border-radius: 8px;
+    justify-content: center;
+}
+.wedimg1 {
+    margin: 20px;
+}
+.wedimg2{
+    margin: 20px;
+}
+.wedimg3{
+    margin: 20px;
 }
