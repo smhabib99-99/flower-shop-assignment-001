@@ -49,6 +49,7 @@
     /* flex-shrink: 0; */
     /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
 }
+
 /* shared css files here to*/
 
 /* shared css files here */
@@ -64,6 +65,7 @@
     margin-top: 40px;
     text-align: center;
 }
+
 /* main section styles
 /* our flowers section styles */
 .name {
@@ -195,11 +197,12 @@
     margin-bottom: 60px;
 }
 
-.color{
-    color: #E55473;;
+.color {
+    color: #E55473;
+    ;
 }
 
-.secondflower{
+.secondflower {
     display: flex;
     justify-content: center;
     background: #E554731A;
@@ -208,10 +211,52 @@
     margin: 80px 0px 80px 0px;
 }
 
-.size{
+.size {
     font-size: 40px;
     margin-bottom: 15px;
 }
-.pr-size{
+
+.pr-size {
     font-size: 24px;
+}
+
+.insta .size {
+    margin: 150px 650px 30px;
+}
+
+.insta .pr-size {
+    margin: 2px 390px;
+    text-align: center;
+}
+
+.beautiful-flowers {
+    margin: 0px 212px 80px;
+}
+
+.beautiful-flowers .ful-1 {
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    width: 260px;
+    height: 396px;
+    flex-shrink: 0;
+}
+
+.beautiful-flowers .ful-2 {
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    width: 260px;
+    height: 396px;
+    flex-shrink: 0;
+}
+
+.beautiful-flowers .ful-3 {
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    width: 260px;
+    height: 396px;
+    flex-shrink: 0;
+}
+
+.beautiful-flowers .ful-4 {
+    background: url(<path-to-image>), lightgray -11.535px 0px / 173.728% 100% no-repeat;
+    width: 260px;
+    height: 396px;
+    flex-shrink: 0;
 }
