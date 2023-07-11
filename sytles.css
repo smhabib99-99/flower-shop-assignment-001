@@ -255,7 +255,7 @@
     display: flex;
     /* margin: 0px 212px 80px; */
     justify-content: space-evenly;
-    margin:0px auto;
+    margin: 0px auto;
     width: 342px;
     height: 300px;
     margin-bottom: 80px;
@@ -296,4 +296,47 @@
     height: 396px;
     flex-shrink: 0; */
     margin: 40px;
+}
+
+.deal-section {
+    height: 400px;
+    max-width: 1140px;
+    margin: 0px auto;
+    background-image: url("./Flower\ Asset/bal.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.deal-container .deal-title {
+    color: #272727;
+    text-align: center;
+    /* font-family: Lato; */
+    font-size: 40px;
+    /* font-style: normal; */
+    font-weight: 800;
+    /* line-height: normal; */
+    color: #272727;
+}
+
+.deal-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: #272727;
+    margin-top: 15px;
+}
+
+.subs {
+    width: 580px;
+    height: 48px;
+    border-radius: 8px;
+    background: #FFF;
+    color:#FFFFFF;
+    padding: 10px;
 }
