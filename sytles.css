@@ -310,6 +310,7 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 80px;
+    border-radius: 8px;
 }
 
 .deal-container .deal-title {
@@ -337,6 +338,40 @@
     height: 48px;
     border-radius: 8px;
     background: #FFF;
-    color:#FFFFFF;
+    color: #FFFFFF;
     padding: 10px;
+}
+
+.white {
+    color: white;
+}
+
+footer {
+    background-color: black;
+    width: 1500px;
+    height: 400px;
+    background: #111010;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.shop-head {
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+    color: #E55473;
+    color: #FFFFFF;
+}
+
+.shop-para {
+    width: 625px;
+    flex-direction: column;
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #FFFFFFE5;
+    margin: 20px;
 }
